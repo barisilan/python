@@ -1,0 +1,11 @@
+"""
+verilen listeyi tersten yazdıran fonksiyon
+
+"""
+l1 = [[9,'g'], 6,[[3,'k','m'],2,'i'],8,9,'k',[['r']]]
+
+
+def ters(l1):
+    l1.reverse()
+    return l1
+print(ters(l1))
